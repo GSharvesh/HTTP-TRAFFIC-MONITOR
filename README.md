@@ -61,4 +61,3 @@ ________________________________________
 
 •	Output verified using both console and file logging
 
-
