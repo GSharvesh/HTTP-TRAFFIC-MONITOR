@@ -15,7 +15,6 @@ def log_to_file(data):
 def process_packet(packet):
     global packet_counter
     packet_counter += 1
-
     src_ip = packet[IP].src if packet.haslayer(IP) else "Unknown"
     dst_ip = packet[IP].dst if packet.haslayer(IP) else "Unknown"
     src_port = packet[TCP].sport if packet.haslayer(TCP) else (packet[UDP].sport if packet.haslayer(UDP) else "N/A")
