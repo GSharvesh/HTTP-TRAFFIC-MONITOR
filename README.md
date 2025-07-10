@@ -7,14 +7,14 @@ A lightweight Python tool that uses **Scapy** to sniff and log network packets �
 ## 📸 Screenshots
 
 ### 🔹 Terminal Output (while sniffing packets)
-**File:** `screenshots/terminal_output.png`
+**File:** `terminal.png`
 
 ![Terminal Output](terminal.png)
 
 ---
 
 ### 🔹 Logged Output in `packet_log.txt`
-**File:** `screenshots/log_file.png`
+**File:** `log_ss.png`
 
 ![Log File](log_ss.png)
 
