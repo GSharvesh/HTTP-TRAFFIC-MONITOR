@@ -18,10 +18,7 @@ A lightweight Python tool that uses **Scapy** to sniff and log network packets â
 
 ![Log File](log_ss.png)
 
-> To include these in your repo:
-> 1. Create a folder called `screenshots/`
-> 2. Save your screenshots with the above filenames
-> 3. Upload via GitHub or `git push`
+
 
 ---
 
