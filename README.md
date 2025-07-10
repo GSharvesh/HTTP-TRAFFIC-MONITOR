@@ -9,14 +9,14 @@ A lightweight Python tool that uses **Scapy** to sniff and log network packets �
 ### 🔹 Terminal Output (while sniffing packets)
 **File:** `screenshots/terminal_output.png`
 
-![Terminal Output](screenshots/terminal_output.png)
+![Terminal Output](terminal.png)
 
 ---
 
 ### 🔹 Logged Output in `packet_log.txt`
 **File:** `screenshots/log_file.png`
 
-![Log File](screenshots/log_file.png)
+![Log File](log_ss.png)
 
 > To include these in your repo:
 > 1. Create a folder called `screenshots/`
