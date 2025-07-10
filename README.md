@@ -1,63 +1,46 @@
-# HTTP-TRAFFIC-MONITOR
-## Overview:
+# 🕵️‍♂️ Network Packet Sniffer using Scapy
 
-Developed a real-time network packet sniffer in Python using the Scapy library to monitor and analyze live network traffic. The tool captures low-level network packets and extracts useful metadata including:
+A lightweight Python tool that uses **Scapy** to sniff and log network packets — with special focus on HTTP requests. Perfect for learning the basics of network security and traffic inspection.
 
-•	Source and destination IP addresses
+---
 
-•	Source and destination port numbers
+## 📸 Screenshots
 
-•	Communication protocol (TCP, UDP, HTTP)
+### 🔹 Terminal Output (while sniffing packets)
+**File:** `screenshots/terminal_output.png`
 
-•	HTTP request details (method, host, URL)
+![Terminal Output](screenshots/terminal_output.png)
 
-•	Packet count
+---
 
-•	Live timestamped logging to a .txt file
+### 🔹 Logged Output in `packet_log.txt`
+**File:** `screenshots/log_file.png`
 
-This project simulates the foundational functionality of tools like Wireshark, tailored for educational, debugging, and ethical security auditing purposes.
+![Log File](screenshots/log_file.png)
 
-________________________________________
- ## Technologies Used:
- 
-•	Python 3
+> To include these in your repo:
+> 1. Create a folder called `screenshots/`
+> 2. Save your screenshots with the above filenames
+> 3. Upload via GitHub or `git push`
 
-•	Scapy (for packet sniffing and protocol parsing)
+---
 
-•	Raw Sockets & Linux Networking
+## 🧠 Features
 
-•	Terminal-based CLI + .txt file logging
+✅ Logs TCP/UDP/HTTP traffic  
+✅ Extracts method, host, and path from HTTP packets  
+✅ Real-time display with timestamp  
+✅ Saves logs to `packet_log.txt`  
+✅ Beginner-friendly and minimal  
 
-________________________________________
-## Key Features:
+---
 
-•	Live packet capturing with protocol classification
+## 🛠 Requirements
 
-•	Detection of HTTP traffic with method, host, and URL extraction
+- Python 3.x
+- Scapy
 
-•	Tracks and logs packet statistics
+Install Scapy using pip:
 
-•	Logs all activity to an external file (packet_log.txt)
-
-•	Graceful handling and user interrupt support
-
-________________________________________
-## Purpose:
-
-To understand and demonstrate:
-
-•	Low-level network data interception
-
-•	Packet structure and protocol dissection (TCP/IP & HTTP layers)
-
-•	Practical implementation of a packet analysis tool
-
-•	The role of raw sockets and permissions in cybersecurity
-
-________________________________________
-## Execution:
-
-•	Developed and tested on Linux (Kali) using sudo privileges
-
-•	Output verified using both console and file logging
-
+```bash
+pip install scapy
